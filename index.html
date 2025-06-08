@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BOGO Offer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="title">YAY! It's BOGO</h1>
+
+        <!-- 1 Unit -->
+        <div class="card" data-unit="1">
+            <div class="header">
+                <div class="left">
+                    <strong>1 Unit</strong>
+                    <span class="badge yellow">10% Off</span>
+
+                </div>
+                <div>
+                    <span class="price-inline">$10.00 USD</span>
+                    <span class="strike">$24.00 USD</span>
+                </div>
+    
+            </div>
+            <p class="subtext">Standard Price</p>
+        </div>
+
+        <!-- 2 Units -->
+        <div class="card" data-unit="2">
+            <div class="header">
+                <div class="left">
+                    <strong>2 Units</strong>
+                    <span class="badge green">20% Off</span>
+
+                </div>
+                <div>
+                    <span class="price-inline">$18.00 USD</span>
+                    <span class="strike">$24.00 USD</span>
+                </div>
+
+            </div>
+            <p class="subtext">Standard Price</p>
+
+            <div class="meta">
+                <label for="size">Size:</label>
+                <select id="sizeSelect">
+                </select>
+
+                <label for="color">Colour:</label>
+                <select id="colorSelect">
+                </select>
+            </div>
+            <div class="most-popular-badge">MOST POPULAR</div>
+        </div>
+
+
+        <!-- 3 Units -->
+        <div class="card" data-unit="3">
+            <div class="header">
+                <div class="left">
+                    <strong>3 Units</strong>
+                    <span class="badge blue">30% Off</span>
+
+                </div>
+                <div>
+                    <span class="price-inline">$24.00 USD</span>
+
+                    <span class="strike">$24.00 USD</span>
+
+                </div>
+
+
+            </div>
+            <p class="subtext">Standard Price</p>
+        </div>
+
+        <div style="display:flex;justify-content:space-between">
+            <p class="label" style=" color: purple; margin-left: 11px;">Free Delivery</p>
+            <span class="price-inline">Total: $18.00 USD</span>
+
+        </div>
+        <div class="actions">
+            <button id="addToCartBtn">+ Add to Cart</button>
+        </div>
+    </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
